@@ -8,7 +8,7 @@
 		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-3714-test"
 	},
 	"scripts": {
-		"core:language": "wp language core install el;wp language core activate el",
+		"core:language": "wp language core install --activate hi_IN;wp language core activate hi_IN",
 		"site:custom" : [
 			"@core:language"
 		]
