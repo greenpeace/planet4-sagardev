@@ -5,7 +5,7 @@
 	"require": {
 		"greenpeace/planet4-child-theme" : "dev-develop",
 		"greenpeace/planet4-master-theme" : "dev-develop",
-		"greenpeace/planet4-plugin-engagingnetworks" : "dev-languages"
+		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-3714-test"
 	},
 	"scripts": {
 		"core:language": "wp language core install el;wp language core activate el",
