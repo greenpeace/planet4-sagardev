@@ -3,14 +3,9 @@
 	"description": "Greenpeace P4 SagarDev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme" : "dev-develop",
-		"greenpeace/planet4-master-theme" : "dev-develop",
-		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-3714-test"
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-planet-3757"
 	},
 	"scripts": {
-		"core:language": "wp language core install pl_PL; wp language core install it_IT; wp language core activate it_IT",
-		"site:custom" : [
-			"@core:language"
-		]
+		"site:custom" : []
 	}
 }
