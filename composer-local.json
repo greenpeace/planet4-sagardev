@@ -3,7 +3,8 @@
 	"description": "Greenpeace P4 SagarDev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-planet-3757"
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-planet-3757",
+		"greenpeace/planet4-plugin-engagingnetworks": "dev-planet-3727"
 	},
 	"scripts": {
 		"site:custom" : []
