@@ -6,7 +6,8 @@
 		"greenpeace/planet4-master-theme" : "dev-develop",
 		"greenpeace/planet4-plugin-blocks" : "dev-develop",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-PLANET-4049",
-		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master"
+		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master",
+		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-4060"
 	},
 	"scripts": {
 		"site:custom" : []
