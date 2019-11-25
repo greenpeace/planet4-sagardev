@@ -5,7 +5,8 @@
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-bug/planet-4402",
 		"greenpeace/planet4-plugin-blocks" : "dev-develop",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-PLANET-4425"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-PLANET-4425",
+		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-planet-4274"
 	},
 	"scripts": {
 		"site:custom" : []
