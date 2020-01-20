@@ -4,12 +4,10 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-bug/planet-4456",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-develop",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-blocks-wide-prevent-fouc",
+		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-planet-4624",
 		"wpackagist-plugin/wordpress-popup":"7.0.4",
-		"wpackagist-plugin/popup-builder":"3.59",
-		"wpackagist-plugin/popup-by-supsystic":"1.10.0",
-		"wpackagist-plugin/wp-popups-lite":"2.0.0.9",
-		"wpackagist-plugin/popup-maker":"1.8.14"
+		"wpackagist-plugin/popup-builder":"3.59"
 	},
 	"scripts": {
 		"site:custom" : []
