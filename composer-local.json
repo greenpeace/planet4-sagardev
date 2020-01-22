@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 SagarDev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-release/v1.74",
+		"greenpeace/planet4-master-theme" : "dev-bug/planet-4157",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-blocks-wide-prevent-fouc",
 		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-planet-4624",
 		"wpackagist-plugin/wordpress-popup":"7.0.4",
