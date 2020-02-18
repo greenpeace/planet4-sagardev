@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-planet-4735-ux-improvement",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-4737",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-release/v0.13",
 		"wpackagist-plugin/wordpress-popup":"7.0.4",
 		"wpackagist-plugin/popup-builder":"3.59",
 		"greenpeace/planet4-child-theme-netherlands": "dev-develop"
