@@ -4,10 +4,21 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-4807",
+		"greenpeace/planet4-child-theme-mena" : "0.0.*"
 	},
+	"data_from": "mena",
 	"scripts": {
-		"site:custom" : []
+		"core:language": "wp language core install ar; wp language core activate ar;wp language core install fr_CA; wp language core activate fr_CA",
+		"install:plugin-wpml": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/sitepress-multilingual-cms.4.3.12.zip",
+		"install:plugin-wpml-management": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-translation-management.2.9.6.zip",
+		"install:plugin-wpml-stringtranslate": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-string-translation.3.0.9.zip",
+
+		"site:custom": [
+			"@core:language",
+			"@install:plugin-wpml",
+			"@install:plugin-wpml-management",
+			"@install:plugin-wpml-stringtranslate"
+		]
 	}
 }
