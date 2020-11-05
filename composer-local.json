@@ -7,7 +7,8 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
 		"greenpeace/planet4-child-theme-mena" : "0.0.*",
 		"wpackagist-plugin/contact-form-7": "5.3",
-		"wpackagist-plugin/wpforms-lite": "1.6.2.3"
+		"wpackagist-plugin/wpforms-lite": "1.6.2.3",
+		"wpackagist-plugin/elasticpress":"3.5.1"
 	},
 	"data_from": "mena",
 	"scripts": {
