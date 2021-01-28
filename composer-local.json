@@ -3,25 +3,10 @@
 	"description": "Greenpeace P4 SagarDev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"greenpeace/planet4-child-theme-mena" : "0.0.*",
-		"wpackagist-plugin/contact-form-7": "5.3",
-		"wpackagist-plugin/wpforms-lite": "1.6.2.3",
-		"wpackagist-plugin/elasticpress":"3.5.1"
+		"greenpeace/planet4-master-theme" : "dev-wp56",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wp56"
 	},
-	"data_from": "mena",
+	"data_from": "International",
 	"scripts": {
-		"core:language": "wp language core install ar; wp language core activate ar;wp language core install fr_CA; wp language core activate fr_CA",
-		"install:plugin-wpml": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/sitepress-multilingual-cms.4.3.12.zip",
-		"install:plugin-wpml-management": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-translation-management.2.9.6.zip",
-		"install:plugin-wpml-stringtranslate": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-string-translation.3.0.9.zip",
-
-		"site:custom": [
-			"@core:language",
-			"@install:plugin-wpml",
-			"@install:plugin-wpml-management",
-			"@install:plugin-wpml-stringtranslate"
-		]
 	}
 }
