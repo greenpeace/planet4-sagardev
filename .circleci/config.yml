@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:apm
+    - image: greenpeaceinternational/p4-builder:latest
       auth:
         <<: *docker_auth
 
@@ -39,7 +39,6 @@ job_environments:
     ELASTIC_APM_APPNAME: P4 SagarDev Development
     ELASTIC_APM_ENVIRONMENT: develop
     ELASTIC_APM_ENABLED: true
-    WP_VERSION: 5.7.2
 
 
 commands:
@@ -113,6 +112,8 @@ job_definitions:
       - attach_workspace:
           at: /app
       - run: ./makecomparison.sh
+      - store_test_results:
+          path: /app/backstop_data
       - store_artifacts:
           path: /app/backstop_data
       - when:
