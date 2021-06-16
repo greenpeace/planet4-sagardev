@@ -3,24 +3,9 @@
 	"description": "Greenpeace P4 SagarDev",
 	"license": "MIT",
 	"require": {
-		"cmb2/cmb2": "2.8.0",
-		"greenpeace/planet4-master-theme" : "dev-planet-6060-wp-editor",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"wpackagist-plugin/enable-jquery-migrate-helper":"1.3.0"
+		"greenpeace/planet4-master-theme" : "dev-master",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-6009"
 	},
-	"data_from": "canada",
-	"scripts": {
-		"core:language": "wp language core install fr_CA",
-		"install:plugin-sitepress-multilingual-cms": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/sitepress-multilingual-cms.4.4.10.zip",
-		"install:plugin-wpml-translation-management": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-translation-management.2.10.6.zip",
-		"install:plugin-wpml-string-translation": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-string-translation.3.1.8.zip",
-		"install:plugin-wpml-media-translation": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wpml-media-translation.2.6.4.zip",
-		"site:custom": [
-			"@core:language",
-			"@install:plugin-sitepress-multilingual-cms",
-			"@install:plugin-wpml-translation-management",
-			"@install:plugin-wpml-string-translation",
-			"@install:plugin-wpml-media-translation"
-		]
-	}
+	"data_from": "international",
+	"scripts": {}
 }
