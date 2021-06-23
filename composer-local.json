@@ -5,7 +5,7 @@
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"wpackagist-plugin/wp-phpmyadmin-extension":"5.1.1"
+		"wpackagist-plugin/my-database-admin":"1.1.22"
 	},
 	"data_from": "international",
 	"scripts": {
